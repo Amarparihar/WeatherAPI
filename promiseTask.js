@@ -60,7 +60,7 @@ data
     
     function getWeatherData(button){
         
-        var weatherData = fetch('http://api.openweathermap.org/data/2.5/weather?q=' +button+ '&appid=9ef1cec4c7fdd036777255d6bc0463b0')
+        var weatherData = fetch('https://api.openweathermap.org/data/2.5/weather?q=' +button+ '&appid=9ef1cec4c7fdd036777255d6bc0463b0')
         weatherData
         
         .then(function(res){
